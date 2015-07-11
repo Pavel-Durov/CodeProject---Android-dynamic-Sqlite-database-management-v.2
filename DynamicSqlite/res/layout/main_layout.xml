@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <Button
+        android:id="@+id/bAddNewtoDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnButtonClick"
+        android:text="@string/add_new_object" />
+    
+     <Button
+        android:id="@+id/bGetAllDBdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnButtonClick"
+        android:text="@string/get_all_table_data" />
+     
+      <Button
+        android:id="@+id/bUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnButtonClick"
+        android:text="@string/update_row" />
+      
+      <Button
+        android:id="@+id/bDeleteTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="OnButtonClick"
+        android:text="@string/delete_table" />
+            
+      
+
+</LinearLayout>

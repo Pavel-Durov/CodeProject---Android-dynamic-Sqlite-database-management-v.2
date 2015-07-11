@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dynamic Sqlite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add_new_object">Add new object to DB</string>
+    <string name="get_all_table_data">Get all DB Data</string>
+    <string name="update_row">Update Row</string>
+    <string name="delete_table">Delete Table</string>
+</resources>
